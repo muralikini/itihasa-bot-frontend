@@ -1,20 +1,23 @@
 # Itihasa Bot – Frontend
 
-Kid-friendly chat interface for the Ramayana & Mahabharata teaching bot.
+Simple, kid-friendly chat interface for the Ramayana & Mahabharata storytelling bot.
 
-**Stack**: Next.js + TypeScript + Tailwind
-
-This repo will talk to the backend API at `itihasa-bot-backend`.
-
-## Getting Started
+## Quick Start
 
 ```bash
+cd itihasa-bot-frontend
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000
 
----
+Make sure the backend is running on http://localhost:8000
 
-More UI work coming soon (chat interface, character cards, story mode, etc.).
+### Optional
+
+You can set the backend URL with an environment variable:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
